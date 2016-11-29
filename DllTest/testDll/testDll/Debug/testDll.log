@@ -1,0 +1,27 @@
+﻿生成启动时间为 2016/11/12 15:45:15。
+     1>项目“C:\Users\s\Desktop\DllTest\testDll\testDll\testDll.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\app\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\testDll.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt testDll.cpp
+         testDll.cpp
+       Link:
+         D:\app\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\s\Desktop\DllTest\testDll\Debug\testDll.exe" /INCREMENTAL /NOLOGO NiTE2.lib OpenNI2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\s\Desktop\DllTest\testDll\Debug\testDll.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\s\Desktop\DllTest\testDll\Debug\testDll.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\testDll.obj
+     1>testDll.obj : error LNK2019: 无法解析的外部符号 __imp__oniFrameAddRef，该符号在函数 "public: void __thiscall openni::VideoFrameRef::_setFrame(struct OniFrame *)" (?_setFrame@VideoFrameRef@openni@@QAEXPAUOniFrame@@@Z) 中被引用
+     1>testDll.obj : error LNK2019: 无法解析的外部符号 __imp__oniFrameRelease，该符号在函数 "public: void __thiscall openni::VideoFrameRef::release(void)" (?release@VideoFrameRef@openni@@QAEXXZ) 中被引用
+     1>testDll.obj : error LNK2019: 无法解析的外部符号 __imp__niteInitialize，该符号在函数 "public: static enum nite::Status __cdecl nite::NiTE::initialize(void)" (?initialize@NiTE@nite@@SA?AW4Status@2@XZ) 中被引用
+     1>testDll.obj : error LNK2019: 无法解析的外部符号 __imp__niteShutdown，该符号在函数 "public: static void __cdecl nite::NiTE::shutdown(void)" (?shutdown@NiTE@nite@@SAXXZ) 中被引用
+     1>testDll.obj : error LNK2019: 无法解析的外部符号 __imp__niteInitializeHandTracker，该符号在函数 "public: enum nite::Status __thiscall nite::HandTracker::create(class openni::Device *)" (?create@HandTracker@nite@@QAE?AW4Status@2@PAVDevice@openni@@@Z) 中被引用
+     1>testDll.obj : error LNK2019: 无法解析的外部符号 __imp__niteInitializeHandTrackerByDevice，该符号在函数 "public: enum nite::Status __thiscall nite::HandTracker::create(class openni::Device *)" (?create@HandTracker@nite@@QAE?AW4Status@2@PAVDevice@openni@@@Z) 中被引用
+     1>testDll.obj : error LNK2019: 无法解析的外部符号 __imp__niteShutdownHandTracker，该符号在函数 "public: void __thiscall nite::HandTracker::destroy(void)" (?destroy@HandTracker@nite@@QAEXXZ) 中被引用
+     1>testDll.obj : error LNK2019: 无法解析的外部符号 __imp__niteStartHandTracking，该符号在函数 "public: enum nite::Status __thiscall nite::HandTracker::startHandTracking(class nite::Point3f const &,short *)" (?startHandTracking@HandTracker@nite@@QAE?AW4Status@2@ABVPoint3f@2@PAF@Z) 中被引用
+     1>testDll.obj : error LNK2019: 无法解析的外部符号 __imp__niteStopHandTracking，该符号在函数 "public: void __thiscall nite::HandTracker::stopHandTracking(short)" (?stopHandTracking@HandTracker@nite@@QAEXF@Z) 中被引用
+     1>testDll.obj : error LNK2019: 无法解析的外部符号 __imp__niteSetHandSmoothingFactor，该符号在函数 "public: enum nite::Status __thiscall nite::HandTracker::setSmoothingFactor(float)" (?setSmoothingFactor@HandTracker@nite@@QAE?AW4Status@2@M@Z) 中被引用
+     1>testDll.obj : error LNK2019: 无法解析的外部符号 __imp__niteReadHandTrackerFrame，该符号在函数 "public: enum nite::Status __thiscall nite::HandTracker::readFrame(class nite::HandTrackerFrameRef *)" (?readFrame@HandTracker@nite@@QAE?AW4Status@2@PAVHandTrackerFrameRef@2@@Z) 中被引用
+     1>testDll.obj : error LNK2019: 无法解析的外部符号 __imp__niteHandTrackerFrameRelease，该符号在函数 "public: void __thiscall nite::HandTrackerFrameRef::release(void)" (?release@HandTrackerFrameRef@nite@@QAEXXZ) 中被引用
+     1>testDll.obj : error LNK2019: 无法解析的外部符号 __imp__niteStartGestureDetection，该符号在函数 "public: enum nite::Status __thiscall nite::HandTracker::startGestureDetection(enum nite::GestureType)" (?startGestureDetection@HandTracker@nite@@QAE?AW4Status@2@W4GestureType@2@@Z) 中被引用
+     1>C:\Users\s\Desktop\DllTest\testDll\Debug\testDll.exe : fatal error LNK1120: 13 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\s\Desktop\DllTest\testDll\testDll\testDll.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.07

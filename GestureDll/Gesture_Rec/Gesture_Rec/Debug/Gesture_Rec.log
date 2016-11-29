@@ -1,0 +1,12 @@
+﻿生成启动时间为 2016/11/12 15:39:30。
+     1>项目“C:\Users\s\Desktop\GestureDll\Gesture_Rec\Gesture_Rec\Gesture_Rec.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\app\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D GESTURE_REC_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Gesture_Rec.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt myDll.cpp
+         myDll.cpp
+     1>c:\users\s\desktop\gesturedll\gesture_rec\gesture_rec\mydll.h(4): error C2065: “vector”: 未声明的标识符
+     1>c:\users\s\desktop\gesturedll\gesture_rec\gesture_rec\mydll.h(4): error C2062: 意外的类型“double”
+     1>已完成生成项目“C:\Users\s\Desktop\GestureDll\Gesture_Rec\Gesture_Rec\Gesture_Rec.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.56
